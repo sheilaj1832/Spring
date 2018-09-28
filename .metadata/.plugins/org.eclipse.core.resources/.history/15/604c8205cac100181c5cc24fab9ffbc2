@@ -1,0 +1,19 @@
+package com.hello;
+
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.stereotype.Controller;
+
+@Controller
+@EnableAutoConfiguration
+public class SampleController {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@RequestMapping("/")
+	String home() {
+		return "Hello Java Bootcamp!";
+	}
+}
