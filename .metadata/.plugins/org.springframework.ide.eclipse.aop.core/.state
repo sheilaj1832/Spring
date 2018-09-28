@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
+<aop-project name="hello"/>
+<aop-project name="HelloWorldSpringWebMySQL2"/>
+<aop-project name="HelloWorldSpringWeb2"/>
 <aop-project name="HelloWorldSpringWebMySQL"/>
+<aop-project name="HelloWorld2"/>
 </aop-reference-model>
